@@ -1,0 +1,282 @@
+body {
+  margin: 3% 5%;
+}
+
+/* navbar */
+.navbar {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 3% 5%;
+  padding: 0 3%;
+}
+#nav {
+  margin-right: 0rem;
+}
+
+/* mainContent */
+
+#heading {
+  margin: 5% 0;
+  margin-bottom: 15%;
+}
+.headingOne {
+  font-size: 2.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  margin: 5% 0;
+}
+.paraOne {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 550;
+  font-size: 1rem;
+}
+.mainImg {
+  height: 380px;
+  margin-left: 10%;
+}
+#inputField {
+  border-color: #ff7f7f;
+}
+#btn1 {
+  padding: 0.5rem rem;
+}
+
+/* secondMainContent */
+
+#secondMainContent {
+  background-color: rgb(248, 248, 254);
+  margin-left: 0;
+  margin-right: 0;
+  padding: 3% 0;
+  padding-left: 8%;
+}
+.headingTwo {
+  font-size: 2.3rem;
+  padding-bottom: 5%;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+.paraTwo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 550;
+  font-size: 1rem;
+}
+#btn2 {
+  text-decoration: underline;
+  text-decoration-color: rgb(61, 160, 143);
+  text-decoration-thickness: 2px;
+  color: rgb(61, 160, 143);
+  margin: 3% 0;
+}
+
+
+
+/* card */
+
+.card {
+  border-radius: 2rem;
+  background-color: white;
+  height: 15rem;
+  width: 23rem;
+  padding: 5%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+.testimonialImg {
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 6.1rem;
+  width: 50px;
+  height: 50px;
+}
+#testimonialHead {
+  margin-left: 4rem;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.secondImg{
+  margin-left: 15%;
+}
+
+/* thirdMainContent */
+
+.thirdContent {
+  background-color: hsl(238, 22%, 44%);
+  padding: 7% 0;
+}
+.headingThird {
+  font-size: 2rem;
+  padding-bottom: 3%;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+.paraThird {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 550;
+  font-size: 1rem;
+  color: white;
+  margin-right: 10%;
+}
+#inputSecond {
+  border-color: #ff7f7f;
+  margin-bottom: 5%;
+  margin-left: 3%;
+}
+#btn3 {
+  margin-left: 3%;
+}
+
+
+
+/* footer */
+
+.footer {
+  background-color: hsl(243, 87%, 12%);
+  padding: 3% 7%;
+}
+#footerLogo {
+  margin: 3% 1%;
+  filter: brightness(0) invert(1);
+}
+#phone,
+#email {
+  margin-right: 5%;
+}
+#socialImg {
+  height: 1.8rem;
+  filter: brightness(0) invert(1);
+  padding-right: 5%;
+  margin: 3% 0;
+}
+
+@media screen and (max-width: 480px) {
+  
+  .logo-img {
+    height: 25px;
+  }
+  #linksDiv {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 15px;
+  }
+  #nav {
+    margin: 1px 7px;
+    padding: 7px;
+  }
+  .mainImg {
+    position: relative;
+    bottom: 60vh;
+    height: 250px;
+    margin-left: 4rem;
+  }
+  #heading {
+    position: relative;
+    top: 55vh;
+    text-align: center;
+  }
+  .headingOne {
+    font-size: 1.5rem;
+    margin: 0;
+    position: relative;
+    font-weight: 800;
+  }
+  .paraOne {
+    padding: 2rem 1rem;
+    margin-left: 3rem;
+    text-align: center;
+    width: 75%;
+  }
+  #inputField {
+    position: relative;
+    left: 6rem;
+    width: 15rem;
+  }
+  #btn1 {
+    position: relative;
+    top: 4rem;
+    right: 9rem;
+  }
+  .curvebg {
+    margin-top: 10rem;
+    width: 480px;
+  }
+  .secondImg{
+    position: relative;
+    bottom: 100vh;
+    right: 3rem;
+    width: 380px;
+    height: auto;
+  }
+  .headingTwo {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    text-align: center;
+  }
+  .paraTwo {
+    width: 80%;
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  #btn2 {
+    margin-left: 6rem;
+  }
+  .card {
+    margin-left: 1rem;
+  }
+  #secondContent{
+    position: relative;
+    top: 60vh;
+  }
+  .thirdContent{
+   margin-top: 10rem;
+   padding-bottom: 10rem ;
+  }
+  .headingThird{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    margin-left: 7rem;
+  }
+  .paraThird{
+    margin-left: 4rem;
+    width: 140%;
+    padding: 0;
+    text-align: center;
+  }
+  #inputSecond{
+    position: relative;
+    top: 35vh;
+    width: 110%;
+    right: 9.4rem;
+  }
+  #btn3{
+    position: relative;
+    top: 38vh;
+    right: 7rem;
+  }
+  #footer{
+    padding-bottom: 55vh;
+  }
+  #Links1{
+    position: relative;
+    top: 22vh;
+    right: 12rem;
+  }
+  #Links2{
+    position: relative;
+    top: 55vh;
+    right: 19rem;
+  }
+  #Links3{
+    position: relative;
+    top: 55vh;
+    left: 8rem;
+    
+  }
+
+
+}
